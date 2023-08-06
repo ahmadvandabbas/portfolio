@@ -1,0 +1,111 @@
+@font-face {
+  font-family: vazir;
+  src: url("../../public/vazir-font/Vazirmatn-Medium.ttf");
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.img-container {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  border: 7px solid rgb(93, 93, 206);
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid rgb(93, 93, 206);
+  filter: brightness(65%);
+}
+.text-container {
+  font-family: vazir;
+  margin-top: 10px;
+}
+.text-container h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: rgb(93, 93, 206);
+  text-shadow: 0px 2px 3px rgb(93, 93, 206);
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+}
+.text-container h3 {
+  font-size: 18px;
+  color: rgb(97, 97, 97);
+}
+.button-container {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.button-container span {
+  font-family: vazir;
+  background-color: rgb(93, 93, 206);
+  border-radius: 6px;
+  margin: 20px;
+  padding: 2px;
+}
+.button-container span a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  padding: 15px;
+  line-height: normal;
+}
+@media screen and (max-width: 570px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .text-container {
+    margin-bottom: 29px;
+  }
+  .text-container h1 {
+    font-size: 30px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+  }
+  .img-container img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .img-container img {
+    width: 160px;
+    height: 160px;
+  }
+  .button-container span {
+    font-size: 12px;
+    margin: 10px;
+  }
+  .button-container span a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .img-container img {
+    border-radius: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .button-container span {
+    margin: 30px;
+  }
+}

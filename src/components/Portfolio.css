@@ -1,0 +1,65 @@
+@font-face {
+  font-family: vazir;
+  src: url("../../public/vazir-font/Vazirmatn-Medium.ttf");
+}
+
+.portfolio-container {
+  font-family: vazir;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.portfolio-container h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: rgb(93, 93, 206);
+}
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portfolio {
+  display: flex;
+  width: 350px;
+  flex-direction: c;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 18px;
+  border: 1px solid rgb(168, 166, 166);
+  border-radius: 7px;
+}
+
+.portfolio-img {
+  width: 300px;
+  height: 250px;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.portfolio-title {
+  color: rgb(93, 93, 206);
+  margin-bottom: 15px;
+  margin-top: 12px;
+  font-size: 23px;
+}
+.portfolio-desc {
+  text-align: center;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 12px;
+  color: rgb(54, 54, 54);
+}
+.portfolio-url {
+  color: rgb(14, 100, 150);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  text-align: center;
+}

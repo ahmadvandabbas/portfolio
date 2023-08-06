@@ -1,0 +1,142 @@
+@font-face {
+  font-family: vazir;
+  src: url("../../public/vazir-font/Vazirmatn-Medium.ttf");
+}
+
+.skills-container {
+  font-family: vazir;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skills-container h2 {
+  font-size: 28px;
+  color: rgb(93, 93, 206);
+}
+.skills-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  margin-top: 15px;
+}
+.skills h1 {
+  font-size: 22px;
+  color: rgb(93, 93, 206);
+  margin-top: 15px;
+}
+.skills p {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 5px;
+  color: rgb(54, 54, 54);
+}
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 200px;
+  height: 180px;
+}
+.img-container img {
+  border-radius: 1px;
+}
+@media screen and (max-width: 570px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+  }
+  .skills p {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+  }
+  .skills p {
+    font-size: 13px;
+  }
+  .skills h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .skills-container {
+    width: 100%;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+  }
+  .skills p {
+    font-size: 13px;
+  }
+  .skills h1 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    padding: 30px;
+    border: none;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills p {
+    font-size: 14px;
+  }
+  .skills h1 {
+    font-size: 22px;
+  }
+  .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 150px;
+    height: 140px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    margin-top: 5px;
+    padding: 30px;
+  }
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+  .skills p {
+    font-size: 14px;
+  }
+  .skills h1 {
+    font-size: 22px;
+  }
+}
